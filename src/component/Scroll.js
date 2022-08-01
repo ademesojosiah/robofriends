@@ -4,7 +4,7 @@ import './Scroll.css'
 
 const Scroll = (props) =>{
     return(
-        <div className='scroll' style={{overflowY:"auto", border:'2px solid black', height:'500px' }}>
+        <div className='scroll'>
             {props.children}
         </div>
     )

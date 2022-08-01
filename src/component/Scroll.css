@@ -1,3 +1,11 @@
+.scroll{
+    overflow-y:"auto";
+    border:'2px solid black';
+    height:'500px'; 
+}
+
+
+
 .scroll::-webkit-scrollbar{
     display: none;
 }
